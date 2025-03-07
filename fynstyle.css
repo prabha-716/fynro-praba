@@ -85,7 +85,7 @@ a:hover{
     width: 121px;
     height: 40px;
     text-decoration: none;
-    border-color: blue;
+    border: none;
     size: 40px;
     border-radius: 10px;
     cursor: pointer;
@@ -185,19 +185,19 @@ a:hover{
 .yt img{
     border-radius: 20px;
 }
+.line{
+    position: relative;
+    bottom: 3cm;
+    left: -32cm;
+}
 .logo{
     position: absolute;
     left: 12.5cm;
     bottom: 10.4cm;
-    z-index: 2;
 }
 .logo:hover{
     transform: scale(1.1,1.1);
     transition: 0.3s;
-}
-.line{
-    position: relative;
-    right: 36.1cm;
 }
 .dots{
     position: relative;
@@ -210,6 +210,10 @@ a:hover{
 }
 .advtitle{
     background-color: #F7F9FF;
+}
+.bg2{
+    position:absolute;
+    left: 70px;
 }
 .bg{
     width: 100%;
